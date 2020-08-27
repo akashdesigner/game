@@ -1,0 +1,271 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+body {font-family: 'Roboto',Open Sans, sans-serif;}
+img {
+	max-width:100%;
+}
+.container {
+    width: 1160px;
+    margin: auto;
+}
+section.header {
+    background: #69D2E7;
+	padding-top: 5px solid #fa6900;
+}
+
+.header-logo {
+    float: left;
+    margin-top: 20px;
+}
+
+.header-nav {
+    float: right;
+}
+
+.main-header {
+    overflow: hidden;
+}
+
+.header-nav ul li {
+    list-style: none;
+    float: right;
+    margin-top: 36px;
+}
+
+.header-nav ul li a {
+    text-decoration: none;
+    padding: 10px;
+    color: #ffffff;
+    font-size: 20px;
+    transition: .5s;
+	background: #fa6900;
+	margin:0 5px;
+}
+
+.header-dec {
+    text-align: center;
+    color: white;
+    padding-bottom: 170px;
+    padding-top: 120px;
+}
+.header-dec h1 {
+    font-size: 80px;
+	
+}
+
+.header-dec h2 {
+    font-size: 33px;
+}
+.about-box {
+    width: 930px;
+    margin: auto;
+    background: white;
+    text-align: center;
+    border-radius: 10px;
+    position: absolute;
+    left: 203px;
+    top: -98px;
+    box-shadow: 0px 0px 20px 0px #ada5a5;
+}
+
+section.about-us {
+    background: #F1F1F1;
+    position: relative;
+}
+
+.about-box h2 {padding-top: 42px;padding-bottom: 11px;font-size: 40px;letter-spacing: .5;}
+
+.about-box p {
+    font-size: 25px;
+    padding: 34px 0;
+    letter-spacing: .2;
+    padding-bottom: 52px;
+    margin: 0 61px;
+}
+section.services {
+    background: #F1F1F1;
+    height: 570px;
+}
+hr {
+    width: 273px;
+    margin: auto;
+}
+.services-boxes {
+    padding-top: 297px;
+}
+.icon i {
+    font-size: 142px;
+    color: #69D2E7;
+}
+
+.service-one {
+    text-align: center;
+    width: 233px;
+    float: left;
+    padding-left: 112px;
+    cursor: pointer;
+}
+
+.icon {
+    background: white;
+    border-radius: 14px;
+}
+
+.icon-dec p {
+    font-size: 22px;
+    padding-top: 8px;
+    letter-spacing: .6;
+}
+section.portfolio {
+    background: #FA6900;
+}
+.port-wrap p {
+    padding: 58px 0;
+    font-size: 26px;
+    margin: 0 176px;
+    letter-spacing: .3;
+    color: #eae0e0;
+}
+.port-wrap {
+    text-align: center;
+}
+.images {
+    padding-bottom: 35px;
+}
+.header-nav ul li a:hover {
+    color:black;
+}
+section.testimonials {
+    background: #F1F1F1;
+    text-align: center;
+    padding: 69px 0;
+}
+
+.man img {
+    border-radius: 50%;
+}
+
+.test-wrap h1 {
+    padding-top: 10px;
+}
+
+.test-wrap p {
+    font-size: 19px;
+    padding-bottom: 5px;
+    padding-top: 3px;
+}
+p.para2 {
+    width: 660px;
+    margin: auto;
+    padding: 10px 0;
+}
+.about-left {
+    width: 619px;
+    float: left;
+	color: #ffffff;
+}
+
+.about-right {
+    float: right;
+    width: 500px;
+    padding: 52px 0;
+}
+
+section.about {
+    overflow: hidden;
+    background: #FA6900;
+}
+
+.about-wrapper h2 {
+    padding-top: 50px;
+}
+.aboutwrap {
+    overflow: hidden;
+}
+
+.about-left h1 {
+    padding-top: 77px;
+}
+
+.about-left h5 {
+    font-size: 19px;
+    font-weight: 500;
+    padding-top: 4px;
+    padding-bottom: 39px;
+}
+
+.about-left p {
+    padding-bottom: 10px;
+}
+.footer-bottom {background: #69D2E7;overflow: hidden;padding: 25px;}
+
+.footer-bottom-left {
+    float: left;
+}
+
+.footer-bottom-right {
+    float: right;
+}
+
+.footer-bottom-nav p a {
+    text-decoration: none;
+    color: white;
+}
+
+.copyright p {
+    color: white;
+}
+.footer-top {
+    background: #F1F1F1;
+    overflow: hidden;
+}
+
+.footer-top-left {
+    float: left;
+    width: 540px;
+}
+
+.footer-top-right {
+    float: right;
+    width: 462px;
+}
+.social-icon i {padding: 12px;background: #6cc9dc;border-radius: 5px;margin: 13px 0;}
+.logo img {
+    padding-top: 30px;
+}
+
+.letest h2 {
+    padding-top: 30px;
+    padding-bottom: 42px;
+}
+
+.social-icon p {
+}
+
+.footer-top-left p {padding-bottom: 42px;padding-top: 10px;}
+.post1 {
+    overflow: hidden;
+    padding: 10px 0;
+}
+
+.post-left {
+    float: left;
+    width: 84px;
+}
+
+.post-right {
+    float: right;
+    width: 346px;
+}
+
+.post-right h1 {
+    font-size: 22px;
+}
+
+.post-right p {
+    padding: 8px 0;
+}
